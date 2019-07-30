@@ -36,6 +36,8 @@ do
   esac
 done
 
+set -ex
+
 # Config gcloud project
 gcloud config set project ${DATASTORE_PROJECT_ID}
 
