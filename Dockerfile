@@ -3,7 +3,7 @@ ARG GCLOUD_SDK_VERSION=261.0.0-alpine
 
 # Use google cloud sdk
 FROM google/cloud-sdk:$GCLOUD_SDK_VERSION
-MAINTAINER Singularities
+MAINTAINER gumo-py
 
 # Install Java 8 for Datastore emulator
 RUN apk add --update --no-cache openjdk8-jre &&\
