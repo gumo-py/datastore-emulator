@@ -26,8 +26,8 @@ services:
   datastore:
     image: quay.io/gumo/datastore-emulator
     environment:
-      - DATASTORE_PROJECT_ID=test-project
-      - DATASTORE_LISTEN_ADDRESS=0.0.0.0:8081
+      DATASTORE_PROJECT_ID: test-project
+      DATASTORE_LISTEN_ADDRESS: 0.0.0.0:8081
     ports:
       - "8081:8081"
     volumes:
