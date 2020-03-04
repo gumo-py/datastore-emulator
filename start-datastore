@@ -2,7 +2,7 @@
 
 # Check user environment variable
 if [[ -z "${DATASTORE_PROJECT_ID}" ]]; then
-  echo "Missing DATASTORE_PROJECT_ID environment variable" >&2
+  echo "Missing DATASTORE_PROJECT_ID environment variable (e.g. 0.0.0.0:8081)" >&2
   exit 1
 fi
 
