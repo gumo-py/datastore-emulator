@@ -75,3 +75,8 @@ This image comes with the following options: `--no-store-on-disk` and `--consist
 ```sh
 start-datastore --no-store-on-disk --consistency=1.0
 ```
+
+## Reference
+
+ - [Google Cloud SDK - Release Notes](https://cloud.google.com/sdk/docs/release-notes)
+ - [Details of Bucket: gs://cloud-sdk-release - Google Cloud Platform](https://console.cloud.google.com/storage/browser/cloud-sdk-release?authuser=0)
